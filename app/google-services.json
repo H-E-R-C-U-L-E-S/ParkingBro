@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "331982262587",
+    "firebase_url": "https://parking-bro-default-rtdb.firebaseio.com",
+    "project_id": "parking-bro",
+    "storage_bucket": "parking-bro.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:331982262587:android:75e494b89b8e8915d2671e",
+        "android_client_info": {
+          "package_name": "com.bro.parking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "331982262587-1f6tck1ra61a3gtn0vae7glauebiso40.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVTJPsKg2qYkWlJcWXE8DwE8aUyaHj2FY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "331982262587-1f6tck1ra61a3gtn0vae7glauebiso40.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
