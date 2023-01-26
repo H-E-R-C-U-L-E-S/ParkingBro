@@ -4,7 +4,7 @@
 ParkingBro allows users to search by phone number for the owner and his car number 🤫 😮 😮
 Or to search for the owner and phone number by the car number, for this the user needs a few things 😏 🤓 😎
 
-## Rules
+## Rules and abilities
 🧐 🧐 🧐
 1. Must pass authentication 🥱🥱🥱
 2. To search for the car number, he must add his car number (the car number is attached to the user number) 💩💩💩
