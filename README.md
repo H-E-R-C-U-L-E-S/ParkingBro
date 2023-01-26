@@ -1,43 +1,44 @@
-👋 👋 👋 გამარჯობა 👋 👋 👋
+👋 👋 👋 Hello 👋 👋 👋
 
-ParkingBro მომხმარებელს საშუალებას აძლევს მოიძიოს ტელეფონის ნომრით მფლობელი და მისი მანქანის ნომერი 🤫 😮 😮
-ან მანქანის ნომრით მოიძიოს მფლობელი და ტელეფონის ნომერი ამისათვის მომხმარებელს რამდენიმე რამ სჭირდება 😏 🤓 😎 
+App Idea
+ParkingBro allows users to search by phone number for the owner and his car number 🤫 😮 😮
+Or to search for the owner and phone number by the car number, for this the user needs a few things 😏 🤓 😎
 
-🧐 🧐 🧐 
-1. უნდა გაიაროს აუთენტიკაცია 🥱🥱🥱
-2. მანქანის ნომრის მოსაძებნად უნდა დაამატოს თავისი მანქანის ნომერი (მანქანის ნომერს მიებმება მომხმარებლის ნომერი) 💩💩💩
-!!! მომხმარებელი მანქანას ვერ დაამატებს თუ ეს ნომერი უკვე სხვას აქვს მიბმული(სხვა თუ წაშლის მერე შეუძლია)🤠👻😁
-3. ტელეფონის ნომრით ძიებისას მომხმარებელმა უნდა მოგვცეს წვდომა კონტაქტების წაკითხვაზე(ავტომატურად აიტვირთება მონაცემთა ბაზაში)😮‍💨😮‍💨😮‍💨
+Rules
+🧐 🧐 🧐
+1. Must pass authentication 🥱🥱🥱
+2. To search for the car number, he must add his car number (the car number is attached to the user number) 💩💩💩
+!!! The user will not be able to add the car if this number is already linked to someone else (if he deletes it, he can) 🤠👻😁
+3. When searching by phone number, the user must give us access to read contacts (automatically uploaded to the database)😮‍💨😮‍💨😮‍💨
 
-აპლიკაციაში პირველი ექთივითი არის AuthActivity მასში ვიყენებთ ორ ფრაგმენტს აუტენტიკაციის და ვერიფიკაციის 🤡
-მეორე ექთივითი არის MainActivity რომელშიც გვაქვს ნავიგაცია (იგულისხმება navhostfragment და BottomNavigationView)  😀 😃 😄
-searchFragment -ში გვაქვს viewPager რომლითაც გადავდივართ სერჩვის მოუდებს შორის (მანქანის ნომრით - ტელეფონის ნომრით) 😵‍💫 🫥 🤐
+Activities and fragments
+The first activity in the application is AuthActivity, in it we use two fragments for authentication and verification 🤡
+The second active is MainActivity in which we have navigation (meaning navhostfragment and BottomNavigationView) 😀 😃 😄
+In searchFragment, we have a viewPager with which we move between selection modes (with car number - phone number) 😵‍💫 🫥 🤐
 
 💀💀💀
-თუ საძიებო ნომერი გვაქვს მონაცემთა ბაზაში მაშინ მომხმარებელთან გამოჩნდება BottomDialogFragment რომლიდანაც მომხმარებელს შეუძლია 
+If we have a search number in the database, then a BottomDialogFragment will appear with the user, from which the user can
 
-1.დარეკოს ნომერზე 😎 😦 😧 😮
-2.დააკოპიროს (მხოლოდ ნომერი) 
-3.შეინახოს სეივებში (SharedPreferences გამოყენებით + Gson(რომ ობიექტი გამოვსახოთ json ით და შევინახოთ)) 🥵 🥵 🥵
-4.დააშეაროს(სრული ინფორმაცია) 😳 😳 
+1. Call the number 😎 😦 😧 😮
+2. Copy (number only)
+3. Save in saves (using SharedPreferences + Gson (to represent the object with json and save it)) 🥵 🥵 🥵
+4. Repair (full information) 😳 😳
 
 😈 👿 👹
-შენახულებში რესაიქლერვიუში ჩანს შენახული იტემები და შეგვიძლია წავშალოთ იტემის მარცხნივ გაწევით
+Saved items are shown in recyclerview and can be deleted by dragging the item to the left
 
-პროფილზე ჩანს როგორ წერია მომხმარებლის სახელი ბაზაში (შეუძლია შეცვალოს რადგან სხვას როგორც უწერია ისე ჩანს (მერე ამ სახლით გამოჩნდება))
-მომხმარებელს შეუძლია:
-1.წაშალოს მანქანა 🥲 🥹 🥲 🥹
-2.დაამატოს ელ.ფოსტა(არსად არ გამოჩნდება ჯერჯერობით)
+profile
+On the profile, you can see how the user's name is written in the database (it can be changed because it looks like someone else has written it (then it will appear with this house))
+The user can:
+1. delete the machine 🥲 🥹 🥲 🥹
+2. Add e-mail (it will not appear anywhere yet)
 
-მონაცემები ინახება FirebaseDatabase-ში მომხმარებელს აუთენტიკაციასაც firebaseAuthentication-ით ვატარებთ
+The data is stored in FirebaseDatabase and we authenticate the user with firebaseAuthentication
 
+Animations
+!!! For animations, we use gifs and load them into imageView, lottie animations could not be output, these animations had watermarks 😭😭😭😭😭😭
 
-!!! ანიმაციებისთვის ვიყენებთ gif ებს და ვტვირთავთ imageView-ში lottie animation -ები ვერ გამოიდა უოთერმარქები ჰქონდა ამ ანიმაციებს 😭😭😭😭😭😭
-
-
---- აპლიკაციის ვიდეო იხილეთ ლინკზე 👉 👉 👉 https://drive.google.com/file/d/1fw2V1W-ZCLGcmqBHtWu8xv6m9NYR4nlE/view?usp=sharing
-
-P.s. ემულატორი ჭედავს,აპლიკაციაში ყველა ეს ფუნქცია მუშაობს 🤩🥳 თუმცა შენახულების და პროფილის დიზაინი ცოტა დასახვეწია 👏👏👏 🤪🤪🤪 🤑🤑🤑
-
-
-
+Demo Link
+--- See the application video at the link 👉 👉 👉 https://drive.google.com/file/d/1fw2V1W-ZCLGcmqBHtWu8xv6m9NYR4nlE/view?usp=sharing
+P.s
+The emulator works, all these functions work in the application 🤩🥳 However, the design of the save and profile needs a little improvement 👏👏👏 🤪🤪🤪 🤑🤑🤑
