@@ -1,10 +1,10 @@
-👋 👋 👋 Hello 👋 👋 👋
+#👋 👋 👋 Hello 👋 👋 👋
 
-App Idea
+## App Idea
 ParkingBro allows users to search by phone number for the owner and his car number 🤫 😮 😮
 Or to search for the owner and phone number by the car number, for this the user needs a few things 😏 🤓 😎
 
-Rules
+## Rules
 🧐 🧐 🧐
 1. Must pass authentication 🥱🥱🥱
 2. To search for the car number, he must add his car number (the car number is attached to the user number) 💩💩💩
@@ -27,7 +27,7 @@ If we have a search number in the database, then a BottomDialogFragment will app
 😈 👿 👹
 Saved items are shown in recyclerview and can be deleted by dragging the item to the left
 
-profile
+## profile
 On the profile, you can see how the user's name is written in the database (it can be changed because it looks like someone else has written it (then it will appear with this house))
 The user can:
 1. delete the machine 🥲 🥹 🥲 🥹
@@ -35,10 +35,10 @@ The user can:
 
 The data is stored in FirebaseDatabase and we authenticate the user with firebaseAuthentication
 
-Animations
+## Animations
 !!! For animations, we use gifs and load them into imageView, lottie animations could not be output, these animations had watermarks 😭😭😭😭😭😭
 
-Demo Link
+## Demo Link
 --- See the application video at the link 👉 👉 👉 https://drive.google.com/file/d/1fw2V1W-ZCLGcmqBHtWu8xv6m9NYR4nlE/view?usp=sharing
-P.s
+## P.s
 The emulator works, all these functions work in the application 🤩🥳 However, the design of the save and profile needs a little improvement 👏👏👏 🤪🤪🤪 🤑🤑🤑
