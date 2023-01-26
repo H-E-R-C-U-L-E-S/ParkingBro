@@ -9,7 +9,7 @@ Or to search for the owner and phone number by the car number, for this the user
 1. Must pass authentication 🥱🥱🥱
 2. To search for the car number, he must add his car number (the car number is attached to the user number) 💩💩💩  
 !!! The user will not be able to add the car if this number is already linked to someone else (if he deletes it, he can) 🤠👻😁  
-3. When searching by phone number, the user must give us access to read contacts (automatically uploaded to the database)😮‍💨😮‍💨😮‍💨  
+3. When searching by phone number, the user must give us access to read contacts (automatically uploaded to the database)😮‍💨😮‍💨  
 
 Activities and fragments
 The first activity in the application is AuthActivity, in it we use two fragments for authentication and verification 🤡  
