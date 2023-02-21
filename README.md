@@ -39,6 +39,6 @@ The data is stored in FirebaseDatabase and we authenticate the user with firebas
 !!! For animations, we use gifs and load them into imageView, lottie animations could not be output, these animations had watermarks 😭😭😭😭😭😭  
 
 ## Demo Link
---- See the application video at the link 👉 👉 👉 https://drive.google.com/file/d/1fw2V1W-ZCLGcmqBHtWu8xv6m9NYR4nlE/view?usp=sharing  
+--- See the application video at the link 👉 👉 👉 //....//
 ## P.s
 The emulator works, all these functions work in the application 🤩🥳 However, the design of the save and profile needs a little improvement 👏👏👏 🤪🤪🤪 🤑🤑🤑
